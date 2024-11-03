@@ -1,0 +1,89 @@
+body {
+    font-family: 'YourBrandFont', sans-serif;
+    background-color: #F5F5F5;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+form input[type="text"], form input[type="tags"], form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.save {
+    background-color: #F0F0F0;
+    color: #333333;
+}
+
+button.publish {
+    background-color: #007BFF;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #E0E0E0;
+    font-size: 14px;
+}
